@@ -14,10 +14,5 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-  },
-  settings: {
-    react: {
-      version: 'detect'
-    }
   }
 }
