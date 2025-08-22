@@ -15,5 +15,9 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, '/api')
       }
     }
+  },
+  define: {
+    // Define environment variables for the client
+    'process.env.VITE_API_URL': JSON.stringify('https://api-node-insyd.onrender.com/api')
   }
 })
